@@ -18,24 +18,18 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
         with:
           node-version: 22
 
+      - id: pages
+        uses: actions/configure-pages@v5
+
       - run: npm ci || npm install
 
-      # Dépôt "pseudo.github.io" -> site à la racine ; sinon -> /nom-du-depot/
-      - name: Calculer le base-href
-        id: base
-        run: |
-          REPO="${{ github.event.repository.name }}"
-          if [[ "$REPO" == *.github.io ]]; then echo "href=/" >> "$GITHUB_OUTPUT"; else echo "href=/$REPO/" >> "$GITHUB_OUTPUT"; fi
-
-      - run: npx ng build --base-href "${{ steps.base.outputs.href }}"
-
-      - uses: actions/configure-pages@v5
+      - run: npx ng build --base-href "${{ steps.pages.outputs.base_path }}/"
 
       - uses: actions/upload-pages-artifact@v3
         with:
