@@ -1,0 +1,45 @@
+<section class="hero" aria-labelledby="hero-name">
+  <p class="available">
+    <span class="pulse" aria-hidden="true"></span>
+    <span><strong>{{ available() }}</strong> {{ i18n.t('hero.internship') }}</span>
+  </p>
+  <h1 class="hero__name" id="hero-name">Güldane Acar</h1>
+  <p class="hero__role">{{ i18n.tr(p.role) }}</p>
+  <p class="hero__text">{{ i18n.tr(p.intro) }}</p>
+  <div class="hero__actions">
+    <a class="btn btn--primary" href="#projets">{{ i18n.t('hero.ctaProjects') }}</a>
+    <a class="btn btn--ghost" href="#contact">{{ i18n.t('hero.ctaContact') }}</a>
+  </div>
+
+  <dl class="stats">
+    @for (s of stats(); track $index) {
+      <div class="glass stat">
+        <dt class="stat__value">{{ s.value }}</dt>
+        <dd class="stat__label">{{ s.label }}</dd>
+      </div>
+    }
+  </dl>
+
+  <div class="facts">
+    <div class="glass facts__langs">
+      <h2 class="card-title">{{ i18n.t('card.languages') }}</h2>
+      <ul class="langs">
+        @for (l of c.languages; track $index) {
+          <li class="lang">
+            <span class="lang__name">{{ i18n.tr(l.name) }}</span>
+            <span class="lang__level">{{ i18n.tr(l.level) }}</span>
+            <span class="meter" aria-hidden="true">
+              @for (n of [1, 2, 3, 4, 5]; track n) {
+                <i [class.on]="n <= l.score"></i>
+              }
+            </span>
+          </li>
+        }
+      </ul>
+    </div>
+    <div class="glass facts__where">
+      <h2 class="card-title">{{ i18n.t('card.location') }}</h2>
+      <p class="where__text">{{ i18n.tr(p.location) }}</p>
+    </div>
+  </div>
+</section>

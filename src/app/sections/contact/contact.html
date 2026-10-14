@@ -1,0 +1,30 @@
+<section class="section" id="contact" aria-labelledby="contact-title">
+  <div class="glass contact">
+    <h2 class="contact__title" id="contact-title">{{ i18n.t('contact.title') }}</h2>
+    <p class="contact__lead">{{ i18n.t('contact.lead') }}</p>
+
+    <p class="contact__email">
+      <a [href]="'mailto:' + p.email">{{ p.email }}</a>
+      <button type="button" class="btn btn--small" (click)="copyEmail()">
+        {{ copied() ? i18n.t('contact.copied') : i18n.t('contact.copy') }}
+      </button>
+      <span class="sr-only" aria-live="polite">{{ copied() ? i18n.t('contact.copied') : '' }}</span>
+    </p>
+
+    <div class="contact__actions">
+      <a class="btn btn--primary" [href]="'mailto:' + p.email">{{ i18n.t('contact.email') }}</a>
+      <a class="btn btn--ghost" [href]="p.linkedin" target="_blank" rel="noopener">LinkedIn</a>
+      @if (p.github) {
+        <a class="btn btn--ghost" [href]="p.github" target="_blank" rel="noopener">GitHub</a>
+      }
+      @if (p.cv) {
+        <a class="btn btn--ghost" [href]="p.cv" download>{{ i18n.t('contact.cv') }}</a>
+      }
+    </div>
+  </div>
+
+  <footer class="footer">
+    <p>© {{ year }} {{ p.name }}</p>
+    <p>{{ i18n.t('footer.made') }}</p>
+  </footer>
+</section>

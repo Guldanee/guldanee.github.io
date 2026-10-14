@@ -1,0 +1,39 @@
+<section class="section" id="parcours" aria-labelledby="parcours-title">
+  <div class="section__head">
+    <h2 class="section__title" id="parcours-title">{{ i18n.t('journey.title') }}</h2>
+  </div>
+
+  <div class="journey">
+    <div class="journey__col">
+      <h3 class="journey__heading">{{ i18n.t('journey.work') }}</h3>
+      @for (e of experience; track e.id) {
+        <article class="glass job" [class.job--main]="$first">
+          <p class="job__when">{{ periods(e) }}</p>
+          <h4 class="job__role">{{ i18n.tr(e.role) }}</h4>
+          <p class="job__where">{{ e.company }}, {{ e.place }}</p>
+          <p class="job__summary">{{ i18n.tr(e.summary) }}</p>
+          <ul class="job__points">
+            @for (pt of e.points; track $index) { <li>{{ i18n.tr(pt) }}</li> }
+          </ul>
+          <div class="chips">
+            @for (s of e.stack; track $index) { <app-chip [value]="s" /> }
+          </div>
+        </article>
+      }
+    </div>
+
+    <div class="journey__col">
+      <h3 class="journey__heading">{{ i18n.t('journey.education') }}</h3>
+      <ol class="glass timeline">
+        @for (ed of education; track ed.id) {
+          <li class="timeline__item">
+            <p class="job__when">{{ i18n.period(ed) }}</p>
+            <h4 class="timeline__degree">{{ i18n.tr(ed.degree) }}</h4>
+            <p class="job__where">{{ ed.school }}</p>
+            <p class="timeline__detail">{{ i18n.tr(ed.detail) }}</p>
+          </li>
+        }
+      </ol>
+    </div>
+  </div>
+</section>

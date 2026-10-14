@@ -1,0 +1,35 @@
+<section class="section" id="competences" aria-labelledby="competences-title">
+  <div class="section__head">
+    <h2 class="section__title" id="competences-title">{{ i18n.t('skills.title') }}</h2>
+    <p class="section__lead">{{ i18n.t('skills.lead') }}</p>
+  </div>
+
+  <div class="skills">
+    @for (g of groups; track g.id; let i = $index) {
+      <div class="glass skill-group" [attr.data-tint]="i % 4">
+        <h3 class="card-title">{{ i18n.tr(g.label) }}</h3>
+        <div class="chips">
+          @for (item of g.items; track $index) {
+            <app-chip [value]="item" [class.chip--fav]="isFavorite(item)" />
+          }
+        </div>
+        @if (g.id === 'frontend') {
+          <p class="skill-note">★ Angular : {{ i18n.t('skills.favorite') }}</p>
+        }
+      </div>
+    }
+  </div>
+
+  <div class="skills skills--duo">
+    <div class="glass skill-group" data-tint="1">
+      <h3 class="card-title">{{ i18n.t('skills.softTitle') }}</h3>
+      <p class="soft__text">{{ i18n.t('skills.soft') }}</p>
+    </div>
+    <div class="glass skill-group" data-tint="0">
+      <h3 class="card-title">{{ i18n.t('card.interests') }}</h3>
+      <div class="chips">
+        @for (it of interests; track $index) { <app-chip [value]="it" /> }
+      </div>
+    </div>
+  </div>
+</section>
