@@ -1,6 +1,6 @@
 # Portfolio de Güldane Acar
 
-Portfolio personnel en **Angular 20** (composants standalone, signals, sans zone.js), en français, anglais, turc et espagnol, avec thème sombre (par défaut) ou clair, des projets filtrables et les logos des technos.
+Portfolio personnel en **Angular 20** (composants standalone, signals, sans zone.js), en français, anglais, turc et espagnol, sur le thème **réseau de neurones** : réseau animé en canvas, projets avec barre d'activation, formation reliée comme des neurones, expériences, et compétences affichées comme un espace latent d'embeddings.
 
 ## Lancer le site en local
 
@@ -30,7 +30,7 @@ Quelques réglages utiles dans `profile` :
 
 Pour le logo ou l'emoji d'une compétence : `src/app/core/icons.ts` (une ligne par compétence). Les logos SVG sont dans `public/logos/` (logos [Devicon](https://devicon.dev), licence MIT).
 
-Pour ajouter un projet : copier un bloc dans `projects`, changer l'`id`, les dates (`"AAAA-MM"`), les catégories (`ai`, `web`, `network`, `systems`, `algo`) et passer `featured` à `true` pour l'afficher en grand.
+Pour ajouter un projet : copier un bloc dans `projects`, changer l'`id`, les dates (`"AAAA-MM"`), les catégories (`ai`, `web`, `network`, `systems`, `algo`), l'`activation` (de 0 à 1, la barre affichée sur la carte) et passer `featured` à `true` pour l'afficher en grand.
 
 ## Structure
 
@@ -38,9 +38,9 @@ Pour ajouter un projet : copier un bloc dans `projects`, changer l'`id`, les dat
 src/app/
   core/        services langue (i18n) et thème, modèles TypeScript
   data/        content.json et ui.json
-  sections/    header, hero, projects, journey, skills, contact
-  shared/      pastille avec logo (chip)
-src/styles.css palette, typo et mise en page (thème sombre par défaut, thème clair crème)
+  sections/    header, hero, projects, formation, experience, skills, contact
+  shared/      neural-net (canvas animé) et chip (pastille avec logo)
+src/styles.css couleurs (bloc :root en haut du fichier), typo et mise en page
 ```
 
 ## Mettre en ligne gratuitement (GitHub Pages)
