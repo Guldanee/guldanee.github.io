@@ -1,0 +1,434 @@
+{
+  "a11y.skip": {
+    "fr": "Aller au contenu",
+    "en": "Skip to content",
+    "tr": "İçeriğe geç",
+    "es": "Ir al contenido"
+  },
+  "nav.projects": {
+    "fr": "Projets",
+    "en": "Projects",
+    "tr": "Projeler",
+    "es": "Proyectos"
+  },
+  "nav.journey": {
+    "fr": "Parcours",
+    "en": "Journey",
+    "tr": "Yolculuk",
+    "es": "Trayectoria"
+  },
+  "nav.skills": {
+    "fr": "Compétences",
+    "en": "Skills",
+    "tr": "Yetkinlikler",
+    "es": "Competencias"
+  },
+  "nav.contact": {
+    "fr": "Contact",
+    "en": "Contact",
+    "tr": "İletişim",
+    "es": "Contacto"
+  },
+  "lang.label": {
+    "fr": "Langue du site",
+    "en": "Site language",
+    "tr": "Site dili",
+    "es": "Idioma del sitio"
+  },
+  "theme.toDark": {
+    "fr": "Passer en thème sombre",
+    "en": "Switch to dark theme",
+    "tr": "Koyu temaya geç",
+    "es": "Cambiar al tema oscuro"
+  },
+  "theme.toLight": {
+    "fr": "Passer en thème clair",
+    "en": "Switch to light theme",
+    "tr": "Açık temaya geç",
+    "es": "Cambiar al tema claro"
+  },
+  "hero.available": {
+    "fr": "Disponible dès {date}",
+    "en": "Available from {date}",
+    "tr": "{date} itibarıyla müsait",
+    "es": "Disponible desde {date}"
+  },
+  "hero.internship": {
+    "fr": "Stage de fin d'études de 6 mois, full-stack ou IA",
+    "en": "6-month end-of-studies internship, full-stack or AI",
+    "tr": "6 aylık bitirme stajı, full-stack veya yapay zekâ",
+    "es": "Prácticas de fin de estudios de 6 meses, full-stack o IA"
+  },
+  "hero.ctaProjects": {
+    "fr": "Voir mes projets",
+    "en": "See my projects",
+    "tr": "Projelerimi gör",
+    "es": "Ver mis proyectos"
+  },
+  "hero.ctaContact": {
+    "fr": "Me contacter",
+    "en": "Get in touch",
+    "tr": "Bana ulaşın",
+    "es": "Contactar"
+  },
+  "stats.projects": {
+    "fr": "projets menés de A à Z",
+    "en": "projects built end to end",
+    "tr": "baştan sona geliştirilen proje",
+    "es": "proyectos de principio a fin"
+  },
+  "stats.months": {
+    "fr": "mois de stage chez Sodern – ArianeGroup",
+    "en": "months interning at Sodern – ArianeGroup",
+    "tr": "ay Sodern – ArianeGroup stajı",
+    "es": "meses de prácticas en Sodern – ArianeGroup"
+  },
+  "stats.tutoring": {
+    "fr": "rentrées à accompagner les L1",
+    "en": "orientation weeks tutoring first-years",
+    "tr": "dönem birinci sınıflara mentorluk",
+    "es": "semanas de bienvenida como tutora"
+  },
+  "stats.languages": {
+    "fr": "langues parlées",
+    "en": "languages spoken",
+    "tr": "konuşulan dil",
+    "es": "idiomas hablados"
+  },
+  "card.languages": {
+    "fr": "Langues",
+    "en": "Languages",
+    "tr": "Diller",
+    "es": "Idiomas"
+  },
+  "card.location": {
+    "fr": "Basée en",
+    "en": "Based in",
+    "tr": "Konum",
+    "es": "Ubicación"
+  },
+  "card.interests": {
+    "fr": "En dehors du code",
+    "en": "Away from the keyboard",
+    "tr": "Kodun dışında",
+    "es": "Lejos del teclado"
+  },
+  "projects.title": {
+    "fr": "Projets",
+    "en": "Projects",
+    "tr": "Projeler",
+    "es": "Proyectos"
+  },
+  "projects.lead": {
+    "fr": "Du compilateur à l'IA générative : une sélection de ce que j'ai construit pendant mes études. Cliquez sur un projet pour le détail.",
+    "en": "From compilers to generative AI: a selection of what I've built during my studies. Click a project for the details.",
+    "tr": "Derleyicilerden üretken yapay zekâya: öğrenimim boyunca geliştirdiklerimden bir seçki. Ayrıntılar için bir projeye tıklayın.",
+    "es": "Del compilador a la IA generativa: una selección de lo que he construido durante mis estudios. Haz clic en un proyecto para ver el detalle."
+  },
+  "projects.filter": {
+    "fr": "Filtrer les projets",
+    "en": "Filter projects",
+    "tr": "Projeleri filtrele",
+    "es": "Filtrar proyectos"
+  },
+  "projects.all": {
+    "fr": "Tous",
+    "en": "All",
+    "tr": "Tümü",
+    "es": "Todos"
+  },
+  "projects.open": {
+    "fr": "Voir le détail",
+    "en": "View details",
+    "tr": "Ayrıntıları gör",
+    "es": "Ver detalle"
+  },
+  "projects.close": {
+    "fr": "Fermer",
+    "en": "Close",
+    "tr": "Kapat",
+    "es": "Cerrar"
+  },
+  "projects.stack": {
+    "fr": "Technologies",
+    "en": "Tech stack",
+    "tr": "Teknolojiler",
+    "es": "Tecnologías"
+  },
+  "projects.done": {
+    "fr": "Ce que j'ai réalisé",
+    "en": "What I built",
+    "tr": "Neler yaptım",
+    "es": "Lo que hice"
+  },
+  "projects.context": {
+    "fr": "Projet universitaire, Université Gustave Eiffel",
+    "en": "University project, Université Gustave Eiffel",
+    "tr": "Üniversite projesi, Université Gustave Eiffel",
+    "es": "Proyecto universitario, Université Gustave Eiffel"
+  },
+  "projects.featured": {
+    "fr": "Projet phare",
+    "en": "Highlight",
+    "tr": "Öne çıkan",
+    "es": "Destacado"
+  },
+  "journey.title": {
+    "fr": "Parcours",
+    "en": "Journey",
+    "tr": "Yolculuk",
+    "es": "Trayectoria"
+  },
+  "journey.work": {
+    "fr": "Expériences",
+    "en": "Experience",
+    "tr": "Deneyim",
+    "es": "Experiencia"
+  },
+  "journey.education": {
+    "fr": "Formation",
+    "en": "Education",
+    "tr": "Eğitim",
+    "es": "Formación"
+  },
+  "journey.and": {
+    "fr": "et",
+    "en": "and",
+    "tr": "ve",
+    "es": "y"
+  },
+  "skills.title": {
+    "fr": "Compétences",
+    "en": "Skills",
+    "tr": "Yetkinlikler",
+    "es": "Competencias"
+  },
+  "skills.lead": {
+    "fr": "Les langages et outils que j'ai utilisés en projet, en cours ou en entreprise.",
+    "en": "Languages and tools I've used in projects, courses and at work.",
+    "tr": "Projelerde, derslerde ve iş ortamında kullandığım diller ve araçlar.",
+    "es": "Lenguajes y herramientas que he usado en proyectos, en clase y en la empresa."
+  },
+  "skills.favorite": {
+    "fr": "mon framework web de prédilection, celui de ce site",
+    "en": "my go-to web framework, the one behind this site",
+    "tr": "en sevdiğim web çatısı; bu site de onunla yapıldı",
+    "es": "mi framework web preferido, el de este sitio"
+  },
+  "skills.soft": {
+    "fr": "Adaptabilité, autonomie, curiosité, esprit d'équipe, empathie, gestion du temps",
+    "en": "Adaptability, autonomy, curiosity, team spirit, empathy, time management",
+    "tr": "Uyum sağlama, özerklik, merak, takım ruhu, empati, zaman yönetimi",
+    "es": "Adaptabilidad, autonomía, curiosidad, trabajo en equipo, empatía, gestión del tiempo"
+  },
+  "skills.softTitle": {
+    "fr": "Savoir-être",
+    "en": "Soft skills",
+    "tr": "Kişisel beceriler",
+    "es": "Habilidades personales"
+  },
+  "contact.title": {
+    "fr": "Un stage à me proposer ?",
+    "en": "Have an internship to offer?",
+    "tr": "Önerebileceğiniz bir staj mı var?",
+    "es": "¿Tienes unas prácticas que ofrecerme?"
+  },
+  "contact.lead": {
+    "fr": "Je réponds rapidement. Écrivez-moi ou retrouvez-moi sur LinkedIn.",
+    "en": "I reply quickly. Email me or find me on LinkedIn.",
+    "tr": "Hızlı yanıt veririm. Bana e-posta gönderin ya da LinkedIn'den ulaşın.",
+    "es": "Respondo rápido. Escríbeme o encuéntrame en LinkedIn."
+  },
+  "contact.email": {
+    "fr": "M'écrire un e-mail",
+    "en": "Send me an email",
+    "tr": "Bana e-posta gönderin",
+    "es": "Enviarme un correo"
+  },
+  "contact.copy": {
+    "fr": "Copier l'adresse",
+    "en": "Copy address",
+    "tr": "Adresi kopyala",
+    "es": "Copiar dirección"
+  },
+  "contact.copied": {
+    "fr": "Adresse copiée",
+    "en": "Address copied",
+    "tr": "Adres kopyalandı",
+    "es": "Dirección copiada"
+  },
+  "contact.cv": {
+    "fr": "Télécharger mon CV",
+    "en": "Download my CV",
+    "tr": "Özgeçmişimi indir",
+    "es": "Descargar mi CV"
+  },
+  "footer.made": {
+    "fr": "Conçu et développé avec Angular.",
+    "en": "Designed and built with Angular.",
+    "tr": "Angular ile tasarlandı ve geliştirildi.",
+    "es": "Diseñado y desarrollado con Angular."
+  },
+  "projects.personal": {
+    "fr": "Projet personnel",
+    "en": "Personal project",
+    "tr": "Kişisel proje",
+    "es": "Proyecto personal"
+  },
+  "nav.formation": {
+    "fr": "Formation",
+    "en": "Education",
+    "tr": "Eğitim",
+    "es": "Formación"
+  },
+  "nav.experience": {
+    "fr": "Expériences",
+    "en": "Experience",
+    "tr": "Deneyim",
+    "es": "Experiencia"
+  },
+  "hero.tag": {
+    "fr": "> model.predict(profil)",
+    "en": "> model.predict(profile)",
+    "tr": "> model.predict(profil)",
+    "es": "> model.predict(perfil)"
+  },
+  "nn.label": {
+    "fr": "Réseau de neurones animé",
+    "en": "Animated neural network",
+    "tr": "Animasyonlu sinir ağı",
+    "es": "Red neuronal animada"
+  },
+  "nn.hint": {
+    "fr": "Survolez un neurone, cliquez pour lancer une inférence.",
+    "en": "Hover a neuron, click to run an inference.",
+    "tr": "Bir nörona gelin, çıkarım başlatmak için tıklayın.",
+    "es": "Pasa el ratón por una neurona, haz clic para lanzar una inferencia."
+  },
+  "nn.out1": {
+    "fr": "Full-stack",
+    "en": "Full-stack",
+    "tr": "Full-stack",
+    "es": "Full-stack"
+  },
+  "nn.out2": {
+    "fr": "IA",
+    "en": "AI",
+    "tr": "Yapay zekâ",
+    "es": "IA"
+  },
+  "nn.out3": {
+    "fr": "Stage 2027",
+    "en": "Internship 2027",
+    "tr": "Staj 2027",
+    "es": "Prácticas 2027"
+  },
+  "nn.output": {
+    "fr": "Sortie « {name} » : activation {value}",
+    "en": "Output “{name}”: activation {value}",
+    "tr": "“{name}” çıkışı: aktivasyon {value}",
+    "es": "Salida «{name}»: activación {value}"
+  },
+  "nn.neuron": {
+    "fr": "Neurone {id} : {n} connexions",
+    "en": "Neuron {id}: {n} connections",
+    "tr": "Nöron {id}: {n} bağlantı",
+    "es": "Neurona {id}: {n} conexiones"
+  },
+  "nn.inference": {
+    "fr": "Inférence lancée : profil = full-stack + IA, disponible en avril 2027",
+    "en": "Inference running: profile = full-stack + AI, available April 2027",
+    "tr": "Çıkarım başladı: profil = full-stack + yapay zekâ, Nisan 2027'de müsait",
+    "es": "Inferencia lanzada: perfil = full-stack + IA, disponible en abril de 2027"
+  },
+  "layer.projects": {
+    "fr": "couche 1, projets",
+    "en": "layer 1, projects",
+    "tr": "katman 1, projeler",
+    "es": "capa 1, proyectos"
+  },
+  "layer.formation": {
+    "fr": "couche 2, formation",
+    "en": "layer 2, education",
+    "tr": "katman 2, eğitim",
+    "es": "capa 2, formación"
+  },
+  "layer.experience": {
+    "fr": "couche 3, expériences",
+    "en": "layer 3, experience",
+    "tr": "katman 3, deneyim",
+    "es": "capa 3, experiencia"
+  },
+  "layer.skills": {
+    "fr": "couche 4, compétences",
+    "en": "layer 4, skills",
+    "tr": "katman 4, yetkinlikler",
+    "es": "capa 4, competencias"
+  },
+  "projects.sub": {
+    "fr": "La barre d'activation montre à quel point chaque projet est lié à mon profil full-stack et IA. Cliquez sur un projet pour le détail.",
+    "en": "The activation bar shows how closely each project matches my full-stack and AI profile. Click a project for details.",
+    "tr": "Aktivasyon çubuğu, her projenin full-stack ve yapay zekâ profilime ne kadar bağlı olduğunu gösterir. Ayrıntılar için bir projeye tıklayın.",
+    "es": "La barra de activación muestra cuánto se relaciona cada proyecto con mi perfil full-stack e IA. Haz clic en un proyecto para ver el detalle."
+  },
+  "projects.activation": {
+    "fr": "activation",
+    "en": "activation",
+    "tr": "aktivasyon",
+    "es": "activación"
+  },
+  "projects.allLayers": {
+    "fr": "Toutes les couches",
+    "en": "All layers",
+    "tr": "Tüm katmanlar",
+    "es": "Todas las capas"
+  },
+  "formation.sub": {
+    "fr": "Chaque diplôme alimente le suivant.",
+    "en": "Each degree feeds into the next.",
+    "tr": "Her diploma bir sonrakini besler.",
+    "es": "Cada título alimenta el siguiente."
+  },
+  "experience.sub": {
+    "fr": "Ce que j'ai appris en dehors des cours : un vrai projet en entreprise et de la transmission.",
+    "en": "What I learned outside the classroom: a real company project and teaching others.",
+    "tr": "Derslerin dışında öğrendiklerim: gerçek bir şirket projesi ve bilgi aktarımı.",
+    "es": "Lo que aprendí fuera de clase: un proyecto real en empresa y transmitir conocimientos."
+  },
+  "skills.latent": {
+    "fr": "Mon espace latent",
+    "en": "My latent space",
+    "tr": "Gizli uzayım",
+    "es": "Mi espacio latente"
+  },
+  "skills.latentSub": {
+    "fr": "Mes compétences projetées comme des embeddings : les technos proches forment des groupes. Survolez un point pour voir son nom.",
+    "en": "My skills projected as embeddings: related technologies form clusters. Hover a point to see its name.",
+    "tr": "Yetkinliklerim gömme vektörleri olarak yansıtıldı: birbirine yakın teknolojiler kümeler oluşturur. Adını görmek için bir noktaya gelin.",
+    "es": "Mis competencias proyectadas como embeddings: las tecnologías cercanas forman grupos. Pasa el ratón por un punto para ver su nombre."
+  },
+  "skills.weight": {
+    "fr": "poids {w}",
+    "en": "weight {w}",
+    "tr": "ağırlık {w}",
+    "es": "peso {w}"
+  },
+  "contact.comment": {
+    "fr": "# sortie du modèle",
+    "en": "# model output",
+    "tr": "# model çıktısı",
+    "es": "# salida del modelo"
+  },
+  "contact.dispo": {
+    "fr": "avril 2027, 6 mois",
+    "en": "April 2027, 6 months",
+    "tr": "Nisan 2027, 6 ay",
+    "es": "abril de 2027, 6 meses"
+  },
+  "contact.write": {
+    "fr": "M'écrire",
+    "en": "Email me",
+    "tr": "Bana yazın",
+    "es": "Escríbeme"
+  }
+}

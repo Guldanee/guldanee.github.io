@@ -1,0 +1,18 @@
+<header class="topbar" id="top">
+  <div class="topbar__inner">
+    <a class="brand" href="#top" [attr.aria-label]="profile.name">güldane<span>.ai</span></a>
+
+    <nav class="nav" aria-label="Menu">
+      @for (link of links; track link.href) {
+        <a class="nav__link" [href]="link.href">{{ i18n.t(link.key) }}</a>
+      }
+    </nav>
+
+    <div class="seg" role="group" [attr.aria-label]="i18n.t('lang.label')">
+      @for (l of i18n.languages; track l.code) {
+        <button type="button" class="seg__btn" [attr.lang]="l.code" [attr.aria-pressed]="i18n.lang() === l.code"
+                [attr.title]="l.label" (click)="i18n.lang.set(l.code)">{{ l.code }}</button>
+      }
+    </div>
+  </div>
+</header>
